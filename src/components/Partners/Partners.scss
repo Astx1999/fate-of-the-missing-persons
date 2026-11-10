@@ -1,0 +1,44 @@
+@use '../../styles/mixins' as *;
+
+.partners {
+  @include section-pad;
+  background: var(--color-white);
+}
+
+.partners__inner {
+  @include container;
+}
+
+.partners__eyebrow {
+  @include eyebrow;
+  margin-bottom: 1rem;
+}
+
+.partners__title {
+  @include section-title;
+}
+
+.partners__lead {
+  @include body-lg;
+  margin-top: 1.5rem;
+  max-width: 63rem;
+}
+
+.partners__logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 7.5rem;
+  }
+}
+
+.partners__logo-circle {
+  max-width: 9.5rem !important;
+  border-radius: 50%;
+}

@@ -1,0 +1,236 @@
+{
+  "brand": {
+    "name": "The Fate of the Missing Persons",
+    "fullName": "The Fate of the Missing Persons: Humanitarian Dialogue and Cooperation",
+    "subtitle": "Humanitarian Dialogue and Cooperation",
+    "dates": "19–20 November 2026\nYerevan, Armenia",
+    "datesMeta": "19–20 November 2026 | Yerevan, Armenia"
+  },
+  "nav": {
+    "about": "About",
+    "programme": "Programme",
+    "speakers": "Speakers",
+    "partners": "Partners",
+    "venueContact": "Venue & Contact",
+    "venue": "Venue",
+    "menu": "Open menu",
+    "closeMenu": "Close menu",
+    "primary": "Primary",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "International Conference",
+    "titleLight": "The Fate of the",
+    "titleBold": "Missing Persons",
+    "dates": "19–20 November 2026",
+    "location": "Yerevan, Armenia",
+    "lead": "An international platform to exchange experience on missing persons, strengthen cooperation and discuss practical approaches to supporting their families.",
+    "viewProgramme": "View Programme",
+    "aboutConference": "About the Conference",
+    "format": "In person and online",
+    "languages": "Armenian and English with simultaneous interpretation"
+  },
+  "about": {
+    "eyebrow": "About the Conference",
+    "title": "About the Conference",
+    "p1": "The lack of information about missing persons leaves their families facing prolonged uncertainty. Addressing this humanitarian issue requires coordinated action, reliable national mechanisms and sustained international cooperation.",
+    "p2": "The conference in Yerevan brings together representatives of public institutions, international and humanitarian organizations, the expert community and civil society to exchange experience and advance practical cooperation.",
+    "objectives": "Conference Objectives",
+    "objectivesText": "The conference aims to strengthen national capacities to address cases of missing persons through international and regional knowledge exchange, dialogue and cooperation. Discussions will focus on clarifying the fate of missing persons and addressing the rights and support needs of their families."
+  },
+  "themes": {
+    "eyebrow": "Main Themes",
+    "title": "Discussion Themes",
+    "lead": "The discussions are expected to support knowledge exchange, strengthen cooperation between national institutions and international partners, and inform practical recommendations for further work.",
+    "items": {
+      "1": "The scope of the issue and current challenges",
+      "2": "Legal and institutional mechanisms for truth and justice",
+      "3": "Documentation, forensics and technology",
+      "4": "Families, memory, support and international cooperation"
+    }
+  },
+  "programme": {
+    "eyebrow": "Programme",
+    "title": "Programme",
+    "lead": "The two-day programme includes an opening session, thematic discussions, international knowledge exchange and joint work on support to families and future cooperation.",
+    "draftNotice": "Draft programme. Times and session titles are subject to final confirmation.",
+    "timezone": "All times are in Yerevan local time, UTC+4.",
+    "daysLabel": "Programme days",
+    "day1": "Day 1 · 19 November",
+    "day2": "Day 2 · 20 November",
+    "day1Note": "Legal, institutional and technical responses",
+    "day2Note": "Families, cooperation and next steps",
+    "expand": "Expand session details",
+    "collapse": "Collapse session details",
+    "tags": {
+      "registration": "REGISTRATION",
+      "upcoming": "UPCOMING",
+      "ceremony": "CEREMONY",
+      "session": "SESSION",
+      "media": "PRESS"
+    },
+    "items": {
+      "breakfast": "Breakfast",
+      "registrationCoffee": "Registration & Welcome Coffee",
+      "registrationDetails": "Participant check-in and distribution of conference materials.",
+      "opening": "Opening Ceremony",
+      "openingDetails": "High-level welcome remarks.",
+      "session1": "Session I – The Scope of the Problem and the Realistic Image",
+      "session1Details": "Historical context, available data, legal and technical challenges, and barriers to regional cooperation.",
+      "coffeeBreak": "Coffee Break & Networking",
+      "session2": "Session II – Legal and Institutional Mechanisms for Truth and Justice",
+      "session2Details": "International humanitarian law, human rights, state obligations and comparative international experience.",
+      "lunch": "Lunch Break",
+      "lunchShort": "Lunch",
+      "session3": "Session III – Documentation, Forensics, and the Role of Technology",
+      "session3Details": "DNA identification, data management, ethical considerations and new technologies in humanitarian forensics.",
+      "pressTime": "Press Time",
+      "pressTimeDetails": "A dedicated period for interviews with speakers and media engagement.",
+      "closingDay1": "Closing Session – Toward Cooperation and Next Steps",
+      "closingDay1Details": "Discussion of joint recommendations, information exchange, support to families and future dialogue.",
+      "transfer": "Transfer to Restaurant",
+      "dinner": "Welcome dinner",
+      "session4": "Session IV – Families, Memory, and Justice",
+      "session4Details": "Voices, memory and solidarity across borders.\nModerators: Martina Zaccaro; Vrezh Kardumyan",
+      "session5": "Session V - Voices of Families: Shared Experiences Across Borders",
+      "session5Details": "Living with uncertainty, community support and the role of family associations.\nModerators: Martina Zaccaro; Vrezh Kardumyan",
+      "session6": "Session VI - Building Global Networks of Families",
+      "session6Details": "Exchange of experience among family associations, cooperation and joint advocacy.\nModerators: Martina Zaccaro; Vrezh Kardumyan",
+      "visionExercise": "Joint Vision Exercise : “Vision Wall” and ‘Tree of Hope’",
+      "visionExerciseDetails": "Support needs, shared aspirations and priorities for future cooperation.\nModerators: Martina Zaccaro; Vrezh Kardumyan",
+      "closingDay2": "Closing Session – Joint Reflections and Way Forward",
+      "closingDay2Details": "Discussion outcomes, potential joint initiatives and closing remarks.",
+      "departure": "Departure"
+    }
+  },
+  "speakers": {
+    "eyebrow": "Speakers",
+    "title": "Speakers",
+    "lead": "Conference speakers represent public institutions, international and humanitarian organizations, academia and civil society. The list is updated as participation and publication details are confirmed.",
+    "filtersLabel": "Speaker filters",
+    "filters": {
+      "all": "All",
+      "opening": "Opening Speakers",
+      "moderators": "Moderators",
+      "panellists": "Panellists"
+    },
+    "prev": "Previous speakers",
+    "next": "Next speakers",
+    "closeDetails": "Close speaker details",
+    "close": "Close",
+    "readBiography": "Read Biography",
+    "viewInProgramme": "View in Programme",
+    "type": "Speaker",
+    "moderator": "Moderator",
+    "panellist": "Panellist",
+    "people": {
+      "riepl": {
+        "name": "Dr. Michael Riepl",
+        "role": "Postdoctoral researcher; international lawyer",
+        "organization": "Academy for European Human Rights Protection, University of Cologne",
+        "bio": "Dr. Michael Riepl is an international lawyer, humanitarian practitioner and author. He studied law in Passau and Geneva and holds a doctorate from the University of Cologne. He has worked for the International Committee of the Red Cross in Geneva, Ukraine, Armenia and the Democratic Republic of the Congo. He is currently a freelance author and postdoctoral researcher at the Academy for European Human Rights Protection at the University of Cologne, focusing on international law, Eastern Europe and the Caucasus."
+      },
+      "citroni": {
+        "name": "Dr. Gabriella Citroni",
+        "role": "Adjunct Professor of International Human Rights Law",
+        "organization": "University of Milano-Bicocca",
+        "bio": "Gabriella Citroni is Adjunct Professor of International Human Rights Law at the University of Milano-Bicocca, Italy. She previously served as Chair-Rapporteur and member of the UN Working Group on Enforced or Involuntary Disappearances. She is an International Legal Advisor for FEDEFAM and a Senior Legal Advisor for TRIAL International. Her work includes legal assistance to victims of serious human rights violations and their families, and consultancy on missing persons and enforced disappearances for the OSCE/ODIHR, the Council of Europe Commissioner for Human Rights and the ICRC. From 2003 to 2005, she advised the Italian delegation during negotiations on the international convention protecting persons from enforced disappearance."
+      },
+      "kirakosyan": {
+        "name": "Dr. Yeghishe Kirakosyan",
+        "role": "Co-Founder and Managing Partner; international law scholar",
+        "organization": "Equity Law Partners",
+        "bio": "Dr. Yeghishe Kirakosyan is an international law scholar and educator. He completed his PhD at Yerevan State University in 2006 and has taught at universities in Armenia. For six years, until March 2025, he represented the Republic of Armenia on international legal matters, including before the International Court of Justice, the European Court of Human Rights and arbitral bodies. He is Co-Founder and Managing Partner of Equity Law Partners. He is also an ad hoc Judge of the European Court of Human Rights, a Member of the Permanent Court of Arbitration and a Member of the ICSID Panel of Arbitrators and Conciliators."
+      },
+      "gimigliano": {
+        "name": "Edoardo Gimigliano",
+        "role": "Coordinator of the Special Projects Department",
+        "organization": "International Institute of Humanitarian Law",
+        "bio": "Edoardo Gimigliano is Coordinator of the Special Projects Department at the International Institute of Humanitarian Law and holds a master’s degree in international politics and diplomacy. His experience spans international legal research, training design and delivery, and international programme management. His expertise concerns the application and respect of international humanitarian law and international human rights law in humanitarian crises, including the protection of cultural heritage and essential services, gender-related aspects of emergencies, missing persons and disarmament processes."
+      },
+      "melikyan": {
+        "name": "Anna Melikyan",
+        "role": "Legal Expert",
+        "organization": "Protection of Rights Without Borders",
+        "bio": "Anna Melikyan is a Legal Expert with Protection of Rights Without Borders, Armenia. She works on documenting violations during armed conflict and improving victims’ access to national and international justice mechanisms. She also advocates for the rights of missing persons and their families. Her previous experience includes work with the OSCE Mission to Moldova and the UN Office of the High Commissioner for Human Rights in southern Kyrgyzstan. She has over 15 years of experience teaching human rights and humanitarian law. She holds an LL.M. from the Geneva Academy of International Humanitarian Law and Human Rights and a law degree from the Russian-Armenian University."
+      },
+      "fonderbider": {
+        "name": "Dr. Luis Fonderbider",
+        "role": "Independent Consultant; forensic anthropologist",
+        "organization": "Independent Consultant",
+        "bio": "Luis Fonderbider is a forensic anthropologist and independent consultant with extensive international experience in the search for missing persons. He co-founded the Argentine Forensic Anthropology Team (EAAF) in 1984 and served as its President from 2000 to 2021. He has provided expertise to the International Criminal Court, the International Criminal Tribunal for the former Yugoslavia, UN Commissions of Inquiry, the Inter-American Court of Human Rights, the ICRC and other mechanisms searching for missing persons. In 2006, the French government awarded him the rank of Chevalier of the Legion of Honour."
+      },
+      "salado": {
+        "name": "Dr. Mercedes Salado",
+        "role": "Director for Eurasia and the Middle East",
+        "organization": "Argentine Forensic Anthropology Team (EAAF)",
+        "bio": "Mercedes Salado is Director for Eurasia and the Middle East at the Argentine Forensic Anthropology Team (EAAF). She has over 25 years of international experience in forensic investigation and the search for and identification of missing persons in contexts of conflict, human rights violations, migration and other situations of violence. She has contributed to investigations, training and advisory missions worldwide. She serves as an expert advisor to the UN Special Rapporteur on extrajudicial, summary or arbitrary executions, the ICRC, the Latin American Association of Forensic Anthropology and the American Academy of Forensic Sciences."
+      },
+      "pantelides": {
+        "name": "Leonidas Pantelides",
+        "role": "Representative of the Greek Cypriot Community",
+        "organization": "Committee on Missing Persons in Cyprus (CMP)",
+        "bio": "Leonidas Pantelides was appointed Representative of the Greek Cypriot Community on the Committee on Missing Persons in Cyprus in May 2019. A retired ambassador of the Republic of Cyprus, he served in Stockholm, Athens, Moscow, Geneva and Washington, DC. He also directed the President’s Diplomatic Office and worked on Middle East affairs. Before entering diplomacy, he was a university lecturer. He holds a PhD in philosophy and has published two books, including a book on the Cyprus problem co-authored with Ahmet Sözen."
+      },
+      "muftuzade": {
+        "name": "Hakki Müftüzade",
+        "role": "Turkish Cypriot Member",
+        "organization": "Committee on Missing Persons in Cyprus (CMP)",
+        "bio": "Hakki Müftüzade was appointed Turkish Cypriot Member of the Committee on Missing Persons in Cyprus on 1 January 2021. He has extensive diplomatic experience, including service as Special Advisor to two Turkish Cypriot leaders between 2001 and 2010 and as Representative of the Turkish Cypriot community in the United Kingdom from 1996 to 2001. He previously assisted Rüstem Tatar, then the Turkish Cypriot Member of the Committee. He has also contributed to educational and sporting organizations. He completed a degree in Policy Making and Administration at the University of Essex, United Kingdom."
+      },
+      "gentile": {
+        "name": "Pierre Gentile",
+        "role": "UN representative",
+        "organization": "Committee on Missing Persons in Cyprus (CMP)",
+        "bio": "Pierre Gentile was nominated as the UN representative on the Committee on Missing Persons in Cyprus in September 2024. Previously, he led the Center for Social Integration of Refugees in Lausanne, Switzerland. He worked for the ICRC from 1996 to 2019, including more than ten years in field operations in the Balkans, Afghanistan, Latin America, Africa and the Middle East. In 2007, he established the Protection of Civilian Population unit at ICRC headquarters in Geneva. In 2014, he was appointed head of the Protection Division and the Central Tracing Agency."
+      },
+      "zaccaro": {
+        "name": "Martina Zaccaro",
+        "role": "Moderator",
+        "organization": "International Committee of the Red Cross"
+      },
+      "kardumyan": {
+        "name": "Vrezh Kardumyan",
+        "role": "Head of the Humanitarian Issues Division, Human Rights and Humanitarian Issues Department",
+        "organization": "Ministry of Foreign Affairs of the Republic of Armenia"
+      }
+    }
+  },
+  "partners": {
+    "eyebrow": "Partners",
+    "title": "Organizers and Partners",
+    "lead": "The conference is delivered through cooperation among public institutions, international organizations and humanitarian partners. Official organizational roles and logo order will be published after final confirmation.",
+    "icrcAlt": "International Committee of the Red Cross",
+    "emblemAlt": "Conference partner emblem"
+  },
+  "venue": {
+    "eyebrow": "Venue & Contact",
+    "title": "Armenia Marriott Hotel, Ararat Hall",
+    "addressLabel": "Address",
+    "address": "1 Amiryan Street, Yerevan, Armenia",
+    "datesLabel": "Dates",
+    "dates": "19–20 November 2026",
+    "openMap": "Open Map",
+    "onlineNote": "The organizing team will send online connection details separately to confirmed participants.",
+    "contact": "Contact",
+    "contactIntro": "For enquiries about the programme, participation or conference arrangements, please contact the organizing team.",
+    "enquiries": "General enquiries:",
+    "emailPlaceholder": "[official email address]",
+    "phoneLabel": "Phone number:",
+    "phonePlaceholder": "[number]",
+    "mapAlt": "Map showing Armenia Marriott Hotel in Yerevan"
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "emailPlaceholder": "[official email]",
+    "phonePlaceholder": "[phone number]",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2026. All rights reserved."
+  },
+  "ui": {
+    "close": "Close",
+    "details": "Details",
+    "download": "Download"
+  }
+}

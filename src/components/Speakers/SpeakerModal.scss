@@ -1,0 +1,133 @@
+.speaker-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 1.25rem;
+}
+
+.speaker-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 20, 45, 0.84);
+  border: 0;
+  cursor: pointer;
+}
+
+.speaker-modal__dialog {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 58rem);
+  max-height: min(59.6rem, calc(100svh - 2.5rem));
+  overflow: auto;
+  background: var(--color-white);
+  padding: clamp(2rem, 4vw, 4rem) clamp(1.5rem, 4vw, 3.5rem)
+    clamp(2rem, 4vw, 3.5rem);
+}
+
+.speaker-modal__close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+
+  span {
+    position: absolute;
+    inset: 0;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 100%;
+      height: 3px;
+      background: var(--color-navy-text);
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+}
+
+.speaker-modal__top {
+  display: grid;
+  gap: 1.5rem;
+  padding-right: 2rem;
+}
+
+.speaker-modal__photo {
+  width: min(100%, 14.5rem);
+  aspect-ratio: 270 / 342;
+  overflow: hidden;
+  background: #e8eef6;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.speaker-modal__meta {
+  font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+  font-weight: 300;
+  line-height: 1.68;
+  color: var(--color-navy-text);
+
+  h3 {
+    font-size: clamp(1.35rem, 2vw, 1.65rem);
+    font-weight: 500;
+    margin-bottom: 0.15rem;
+  }
+}
+
+.speaker-modal__country {
+  color: var(--color-gold-dark);
+}
+
+.speaker-modal__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.05rem;
+  margin-top: 1.5rem;
+  padding: 0 1.5rem;
+  border: 2px solid var(--color-navy);
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-navy);
+  transition: background-color 160ms ease;
+
+  &:hover {
+    background: rgba(31, 53, 105, 0.04);
+  }
+}
+
+.speaker-modal__bio {
+  margin-top: clamp(1.75rem, 3vw, 3rem);
+  max-width: 46.25rem;
+  font-size: clamp(1.05rem, 1.3vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.68;
+  color: var(--color-navy-text);
+}
+
+@media (min-width: 800px) {
+  .speaker-modal__top {
+    grid-template-columns: 14.5rem 1fr;
+    column-gap: 3.5rem;
+    align-items: start;
+  }
+
+  .speaker-modal__cta {
+    margin-top: 2rem;
+  }
+}
