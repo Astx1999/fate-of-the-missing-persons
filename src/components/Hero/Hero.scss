@@ -223,12 +223,79 @@
     width: min(38rem, 52vw);
     transform-origin: top right;
 
-    img {
+    svg {
       display: block;
       width: 100%;
       height: auto;
       max-width: none;
+      overflow: visible;
     }
+
+    path {
+      opacity: 0;
+      transform: translateY(1.5rem);
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: hero-art-path 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    // Bottom → top path order (grouped parts share a delay)
+    #Vector_12,
+    #Vector_10,
+    #Vector_11 {
+      animation-delay: 0.06s;
+    }
+
+    #Vector_9 {
+      animation-delay: 0.28s;
+    }
+
+    #Vector_7 {
+      animation-delay: 0.5s;
+    }
+
+    #Vector_3 {
+      animation-delay: 0.72s;
+    }
+
+    #Vector_5 {
+      animation-delay: 0.94s;
+    }
+
+    #Vector_2 {
+      animation-delay: 1.16s;
+    }
+
+    #Vector_6 {
+      animation-delay: 1.38s;
+    }
+
+    #Vector {
+      animation-delay: 1.6s;
+    }
+
+    #Vector_4 {
+      animation-delay: 1.82s;
+    }
+
+    #Vector_8 {
+      animation-delay: 2.04s;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      path {
+        opacity: 1;
+        transform: none;
+        animation: none;
+      }
+    }
+  }
+}
+
+@keyframes hero-art-path {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

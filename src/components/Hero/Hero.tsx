@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import heroBg from '../../assets/hero-bg.png'
-import heroArtwork from '../../assets/hero-artwork.svg'
+import heroArtwork from '../../assets/hero-artwork.svg?raw'
 import './Hero.scss'
 
 export function Hero() {
@@ -12,9 +12,11 @@ export function Hero() {
         <img src={heroBg} alt="" />
       </div>
 
-      <div className="hero__art" aria-hidden="true">
-        <img src={heroArtwork} alt="" width={1107} height={1047} />
-      </div>
+      <div
+        className="hero__art"
+        aria-hidden="true"
+        dangerouslySetInnerHTML={{ __html: heroArtwork }}
+      />
 
       <div className="hero__inner">
         <div className="hero__copy">
