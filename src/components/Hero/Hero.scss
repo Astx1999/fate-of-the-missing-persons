@@ -211,7 +211,7 @@
   }
 
   .hero__copy {
-    max-width: min(42rem, 48%);
+    max-width: min(42rem, 60%);
   }
 
   .hero__art {
@@ -233,53 +233,53 @@
 
     path {
       opacity: 0;
-      transform: translateY(1.5rem);
+      transform: translateY(0.7rem);
       transform-box: fill-box;
       transform-origin: center bottom;
-      animation: hero-art-path 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      animation: hero-art-path 1.05s cubic-bezier(0.33, 1, 0.32, 1) forwards;
     }
 
-    // Bottom → top path order (grouped parts share a delay)
+    // Bottom → top — tight delays so paths overlap and blend
     #Vector_12,
     #Vector_10,
     #Vector_11 {
-      animation-delay: 0.06s;
+      animation-delay: 0.04s;
     }
 
     #Vector_9 {
-      animation-delay: 0.28s;
+      animation-delay: 0.12s;
     }
 
     #Vector_7 {
-      animation-delay: 0.5s;
+      animation-delay: 0.2s;
     }
 
     #Vector_3 {
-      animation-delay: 0.72s;
+      animation-delay: 0.28s;
     }
 
     #Vector_5 {
-      animation-delay: 0.94s;
+      animation-delay: 0.36s;
     }
 
     #Vector_2 {
-      animation-delay: 1.16s;
+      animation-delay: 0.44s;
     }
 
     #Vector_6 {
-      animation-delay: 1.38s;
+      animation-delay: 0.52s;
     }
 
     #Vector {
-      animation-delay: 1.6s;
+      animation-delay: 0.6s;
     }
 
     #Vector_4 {
-      animation-delay: 1.82s;
+      animation-delay: 0.68s;
     }
 
     #Vector_8 {
-      animation-delay: 2.04s;
+      animation-delay: 0.76s;
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -308,7 +308,7 @@
 
 @media (min-width: 1280px) {
   .hero__copy {
-    max-width: min(44rem, 46%);
+    max-width: min(44rem, 50%);
   }
 
   .hero__art {
