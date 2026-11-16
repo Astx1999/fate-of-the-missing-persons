@@ -57,7 +57,17 @@ export function SpeakerModal({ speaker, onClose }: SpeakerModalProps) {
 
         <div className="speaker-modal__top">
           <div className="speaker-modal__photo">
-            {speaker.photo ? <img src={speaker.photo} alt="" /> : null}
+            {speaker.photo ? (
+              <img
+                src={speaker.photo}
+                alt=""
+                style={
+                  speaker.photoPosition
+                    ? { objectPosition: speaker.photoPosition }
+                    : undefined
+                }
+              />
+            ) : null}
           </div>
 
           <div className="speaker-modal__meta">

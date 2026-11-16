@@ -67,7 +67,17 @@ export function Speakers() {
                 onClick={() => setSelected(speaker)}
               >
                 <div className="speaker-card__photo">
-                  {speaker.photo ? <img src={speaker.photo} alt="" /> : null}
+                  {speaker.photo ? (
+                    <img
+                      src={speaker.photo}
+                      alt=""
+                      style={
+                        speaker.photoPosition
+                          ? { objectPosition: speaker.photoPosition }
+                          : undefined
+                      }
+                    />
+                  ) : null}
                 </div>
                 <div className="speaker-card__body">
                   <h3>{t(speaker.nameKey)}</h3>

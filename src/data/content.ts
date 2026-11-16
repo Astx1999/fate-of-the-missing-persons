@@ -2,6 +2,14 @@ import speakerRiepl from '../assets/speaker-riepl.png'
 import speakerCitroni from '../assets/speaker-citroni.png'
 import speakerKirakosyan from '../assets/speaker-kirakosyan.png'
 import speakerGimigliano from '../assets/speaker-gimigliano.png'
+import speakerMelikyan from '../assets/speaker-melikyan.jpg'
+import speakerFonderbider from '../assets/speaker-fonderbider.jpg'
+import speakerSalado from '../assets/speaker-salado.png'
+import speakerPantelides from '../assets/speaker-pantelides.jpg'
+import speakerMuftuzade from '../assets/speaker-muftuzade.jpg'
+import speakerGentile from '../assets/speaker-gentile.jpg'
+import speakerKardumyan from '../assets/speaker-kardumyan.jpg'
+import speakerZaccaro from '../assets/speaker-zaccaro.png'
 
 export const navLinks = [
   { href: '#about', labelKey: 'nav.about' },
@@ -269,6 +277,7 @@ export type Speaker = {
   organizationKey: string
   category: 'opening' | 'moderators' | 'panellists'
   photo?: string
+  photoPosition?: string
   bioKey?: string
 }
 
@@ -315,6 +324,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.melikyan.role',
     organizationKey: 'speakers.people.melikyan.organization',
     category: 'panellists',
+    photo: speakerMelikyan,
     bioKey: 'speakers.people.melikyan.bio',
   },
   {
@@ -323,6 +333,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.fonderbider.role',
     organizationKey: 'speakers.people.fonderbider.organization',
     category: 'panellists',
+    photo: speakerFonderbider,
     bioKey: 'speakers.people.fonderbider.bio',
   },
   {
@@ -331,6 +342,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.salado.role',
     organizationKey: 'speakers.people.salado.organization',
     category: 'panellists',
+    photo: speakerSalado,
     bioKey: 'speakers.people.salado.bio',
   },
   {
@@ -339,6 +351,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.pantelides.role',
     organizationKey: 'speakers.people.pantelides.organization',
     category: 'panellists',
+    photo: speakerPantelides,
     bioKey: 'speakers.people.pantelides.bio',
   },
   {
@@ -347,6 +360,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.muftuzade.role',
     organizationKey: 'speakers.people.muftuzade.organization',
     category: 'panellists',
+    photo: speakerMuftuzade,
     bioKey: 'speakers.people.muftuzade.bio',
   },
   {
@@ -355,6 +369,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.gentile.role',
     organizationKey: 'speakers.people.gentile.organization',
     category: 'panellists',
+    photo: speakerGentile,
     bioKey: 'speakers.people.gentile.bio',
   },
   {
@@ -363,6 +378,7 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.zaccaro.role',
     organizationKey: 'speakers.people.zaccaro.organization',
     category: 'moderators',
+    photo: speakerZaccaro,
   },
   {
     id: 'kardumyan',
@@ -370,6 +386,8 @@ export const speakers: Speaker[] = [
     roleKey: 'speakers.people.kardumyan.role',
     organizationKey: 'speakers.people.kardumyan.organization',
     category: 'moderators',
+    photo: speakerKardumyan,
+    photoPosition: 'center 12%',
   },
 ]
 
