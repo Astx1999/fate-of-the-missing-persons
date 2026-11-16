@@ -36,172 +36,227 @@ export type ProgrammeItem = {
 
 export const programmeDay1: ProgrammeItem[] = [
   {
-    time: '08:00–09:30',
-    titleKey: 'programme.items.breakfast',
-    muted: true,
-  },
-  {
-    time: '09:30–10:00',
+    time: '09:00–09:30',
     titleKey: 'programme.items.registrationCoffee',
     accentTitle: true,
-    tags: [
-      { labelKey: 'programme.tags.registration', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.registration', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.registrationDetails',
     expandable: true,
     defaultOpen: true,
   },
   {
-    time: '10:00–10:40',
+    time: '09:30–10:00',
     titleKey: 'programme.items.opening',
-    tags: [
-      { labelKey: 'programme.tags.ceremony', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.ceremony', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.openingDetails',
     expandable: true,
   },
   {
-    time: '10:40–11:40',
+    time: '10:00–11:30',
     titleKey: 'programme.items.session1',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.session1Details',
     expandable: true,
   },
   {
-    time: '11:40–12:00',
+    time: '11:30–12:00',
     titleKey: 'programme.items.coffeeBreak',
     muted: true,
   },
   {
-    time: '12:00–13:00',
+    time: '12:00–13:30',
     titleKey: 'programme.items.session2',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.session2Details',
     expandable: true,
   },
   {
-    time: '13:00–14:30',
+    time: '13:30–14:30',
     titleKey: 'programme.items.lunch',
     muted: true,
   },
   {
-    time: '14:30–15:30',
+    time: '14:30–16:30',
     titleKey: 'programme.items.session3',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.session3Details',
     expandable: true,
   },
   {
-    time: '15:30–16:30',
-    titleKey: 'programme.items.pressTime',
-    tags: [
-      { labelKey: 'programme.tags.media', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
-    detailsKey: 'programme.items.pressTimeDetails',
-    expandable: true,
+    time: '16:30–16:45',
+    titleKey: 'programme.items.coffeeBreak',
+    muted: true,
   },
   {
-    time: '16:30–17:30',
+    time: '16:45–17:00',
     titleKey: 'programme.items.closingDay1',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.closingDay1Details',
     expandable: true,
-  },
-  {
-    time: '17:30–18:00',
-    titleKey: 'programme.items.transfer',
-    muted: true,
-  },
-  {
-    time: '18:00–19:00',
-    titleKey: 'programme.items.dinner',
-    muted: true,
   },
 ]
 
 export const programmeDay2: ProgrammeItem[] = [
   {
-    time: '08:00–09:30',
-    titleKey: 'programme.items.breakfast',
+    time: '09:00–09:30',
+    titleKey: 'programme.items.welcomeCoffee',
     muted: true,
   },
   {
-    time: '10:00–11:00',
+    time: '09:30–10:00',
+    titleKey: 'programme.items.openingDay2',
+    // tags: [
+    //   { labelKey: 'programme.tags.ceremony', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.openingDay2Details',
+    expandable: true,
+  },
+  {
+    time: '10:00–10:25',
+    titleKey: 'programme.items.itfPresentation',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.itfPresentationDetails',
+    expandable: true,
+  },
+  {
+    time: '10:25–10:45',
     titleKey: 'programme.items.session4',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.session4Details',
     expandable: true,
   },
   {
-    time: '11:00–11:20',
+    time: '10:45–11:20',
+    titleKey: 'programme.items.panel1',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.panel1Details',
+    expandable: true,
+  },
+  {
+    time: '11:20–11:25',
+    titleKey: 'programme.items.moderatorReflection',
+    muted: true,
+  },
+  {
+    time: '11:25–11:45',
     titleKey: 'programme.items.coffeeBreak',
     muted: true,
   },
   {
-    time: '11:20–12:30',
-    titleKey: 'programme.items.session5',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
-    detailsKey: 'programme.items.session5Details',
+    time: '11:45–11:50',
+    titleKey: 'programme.items.voicesIntro',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.voicesIntroDetails',
     expandable: true,
   },
   {
-    time: '12:30–13:30',
+    time: '11:50–12:00',
+    titleKey: 'programme.items.armenianFamilies',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.armenianFamiliesDetails',
+    expandable: true,
+  },
+  {
+    time: '12:00–12:45',
+    titleKey: 'programme.items.panel2',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.panel2Details',
+    expandable: true,
+  },
+  {
+    time: '12:50–12:55',
+    titleKey: 'programme.items.moderatorReflection',
+    muted: true,
+  },
+  {
+    time: '12:55–14:25',
     titleKey: 'programme.items.lunchShort',
     muted: true,
   },
   {
-    time: '13:30–14:30',
-    titleKey: 'programme.items.session6',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
-    detailsKey: 'programme.items.session6Details',
+    time: '14:25–15:25',
+    titleKey: 'programme.items.worldCafe',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.worldCafeDetails',
     expandable: true,
   },
   {
-    time: '14:30–15:30',
+    time: '15:25–16:25',
     titleKey: 'programme.items.visionExercise',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.visionExerciseDetails',
     expandable: true,
   },
   {
-    time: '15:30–17:30',
+    time: '16:25–16:55',
+    titleKey: 'programme.items.coffeeBreak',
+    muted: true,
+  },
+  {
+    time: '16:55–17:55',
+    titleKey: 'programme.items.jointReflections',
+    // tags: [
+    //   { labelKey: 'programme.tags.session', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
+    detailsKey: 'programme.items.jointReflectionsDetails',
+    expandable: true,
+  },
+  {
+    time: '17:55–18:15',
     titleKey: 'programme.items.closingDay2',
-    tags: [
-      { labelKey: 'programme.tags.session', tone: 'navy' },
-      { labelKey: 'programme.tags.upcoming', tone: 'blue' },
-    ],
+    // tags: [
+    //   { labelKey: 'programme.tags.ceremony', tone: 'navy' },
+    //   { labelKey: 'programme.tags.upcoming', tone: 'blue' },
+    // ],
     detailsKey: 'programme.items.closingDay2Details',
     expandable: true,
   },
   {
-    time: '17:30',
+    time: '18:30',
     titleKey: 'programme.items.departure',
     muted: true,
   },

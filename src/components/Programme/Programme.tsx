@@ -69,6 +69,9 @@ export function Programme() {
 function ProgrammeRow({ item }: { item: ProgrammeItem }) {
   const { t } = useTranslation()
   const [open, setOpen] = useState(Boolean(item.defaultOpen))
+  const expandable = Boolean(item.expandable)
+
+  const toggle = () => setOpen((value) => !value)
 
   return (
     <li
@@ -77,11 +80,33 @@ function ProgrammeRow({ item }: { item: ProgrammeItem }) {
         item.muted ? 'is-muted' : '',
         item.accentTitle ? 'is-accent' : '',
         open ? 'is-open' : '',
+        expandable ? 'is-expandable' : '',
       ]
         .filter(Boolean)
         .join(' ')}
     >
-      <div className="programme__row">
+      <div
+        className="programme__row"
+        role={expandable ? 'button' : undefined}
+        tabIndex={expandable ? 0 : undefined}
+        aria-expanded={expandable ? open : undefined}
+        aria-label={
+          expandable
+            ? t(open ? 'programme.collapse' : 'programme.expand')
+            : undefined
+        }
+        onClick={expandable ? toggle : undefined}
+        onKeyDown={
+          expandable
+            ? (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  toggle()
+                }
+              }
+            : undefined
+        }
+      >
         <p className="programme__time">{item.time}</p>
         <div className="programme__main">
           <p className="programme__item-title">{t(item.titleKey)}</p>
@@ -101,16 +126,10 @@ function ProgrammeRow({ item }: { item: ProgrammeItem }) {
             <p className="programme__details">{t(item.detailsKey)}</p>
           ) : null}
         </div>
-        {item.expandable ? (
-          <button
-            type="button"
-            className="programme__toggle"
-            aria-expanded={open}
-            aria-label={t(open ? 'programme.collapse' : 'programme.expand')}
-            onClick={() => setOpen((value) => !value)}
-          >
+        {expandable ? (
+          <span className="programme__toggle" aria-hidden="true">
             <img src={chevron} alt="" width={12} height={22} />
-          </button>
+          </span>
         ) : (
           <span className="programme__toggle-spacer" aria-hidden="true" />
         )}

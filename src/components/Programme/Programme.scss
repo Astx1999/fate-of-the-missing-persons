@@ -100,6 +100,20 @@
   align-items: start;
 }
 
+.programme__item.is-expandable .programme__row {
+  cursor: pointer;
+  transition: background-color 160ms ease;
+
+  &:hover {
+    background-color: rgba(31, 53, 105, 0.03);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: -2px;
+  }
+}
+
 .programme__time {
   grid-column: 1 / -1;
   font-size: 1.5rem;
