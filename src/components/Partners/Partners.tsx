@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import partnerIcrc from '../../assets/partner-icrc.png'
 import partnerCircular from '../../assets/partner-circular.png'
-import partnerMfa from '../../assets/partner-mfa.svg'
+import partnerMfa from '../../assets/partner-mfa.png'
 import './Partners.scss'
 
 export function Partners() {
