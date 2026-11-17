@@ -30,8 +30,7 @@
   grid-template-areas:
     'details'
     'map'
-    'note'
-    'contact';
+    'note';
 }
 
 .venue__details {
@@ -50,33 +49,6 @@
   grid-area: note;
   @include body-lg;
   max-width: 36rem;
-}
-
-.venue__contact {
-  grid-area: contact;
-  color: #1f376b;
-
-  h3 {
-    font-size: clamp(1.35rem, 1.8vw, 1.85rem);
-    font-weight: 700;
-    color: #1f376b;
-    margin-bottom: 0.85rem;
-  }
-
-  p {
-    @include body-lg;
-    color: #1f376b;
-    margin-bottom: 1.25rem;
-  }
-
-  .venue__contact-intro {
-    margin-bottom: 1.25rem;
-  }
-
-  strong {
-    font-weight: 700;
-    color: #1f376b;
-  }
 }
 
 .venue__map {
@@ -99,8 +71,7 @@
     grid-template-columns: 0.9fr 1.1fr;
     grid-template-areas:
       'details map'
-      'note map'
-      'contact map';
+      'note map';
     column-gap: 3rem;
     row-gap: 1.5rem;
     align-items: start;

@@ -18,15 +18,15 @@ export function Partners() {
 
         <div className="partners__logos">
           <img
-            className="partners__logo-mfa"
-            src={partnerMfa}
-            alt={t('partners.mfaAlt')}
-          />
-          <img src={partnerIcrc} alt={t('partners.icrcAlt')} />
-          <img
             className="partners__logo-circle"
             src={partnerCircular}
             alt={t('partners.emblemAlt')}
+          />
+          <img src={partnerIcrc} alt={t('partners.icrcAlt')} />
+          <img
+            className="partners__logo-mfa"
+            src={partnerMfa}
+            alt={t('partners.mfaAlt')}
           />
         </div>
       </div>

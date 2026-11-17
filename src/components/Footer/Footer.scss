@@ -38,7 +38,7 @@
 }
 
 .site-footer__links,
-.site-footer__contact {
+.site-footer__meta {
   display: grid;
   gap: 0.35rem;
   @include body-lg;
@@ -50,8 +50,7 @@
   }
 }
 
-.site-footer__links > p:first-child,
-.site-footer__contact-title {
+.site-footer__links > p:first-child {
   font-weight: 700;
 }
 

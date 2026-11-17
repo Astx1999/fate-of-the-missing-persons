@@ -33,10 +33,7 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="site-footer__contact">
-          <p className="site-footer__contact-title">{t('footer.contact')}</p>
-          <p>{t('footer.emailPlaceholder')}</p>
-          <p>{t('footer.phonePlaceholder')}</p>
+        <div className="site-footer__meta">
           <a href="#privacy">{t('footer.privacy')}</a>
           <p className="site-footer__copy">{t('footer.copyright')}</p>
         </div>

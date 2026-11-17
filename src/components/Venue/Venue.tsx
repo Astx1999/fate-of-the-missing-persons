@@ -39,21 +39,6 @@ export function Venue() {
           </div>
 
           <p className="venue__online-note">{t('venue.onlineNote')}</p>
-
-          <div className="venue__contact">
-            <h3>{t('venue.contact')}</h3>
-            <p className="venue__contact-intro">{t('venue.contactIntro')}</p>
-            <p>
-              <strong>{t('venue.enquiries')}</strong>
-              <br />
-              {t('venue.emailPlaceholder')}
-            </p>
-            <p>
-              <strong>{t('venue.phoneLabel')}</strong>
-              <br />
-              {t('venue.phonePlaceholder')}
-            </p>
-          </div>
         </div>
       </div>
     </section>
