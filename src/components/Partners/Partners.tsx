@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import partnerIcrc from '../../assets/partner-icrc.png'
 import partnerCircular from '../../assets/partner-circular.png'
+import partnerMfa from '../../assets/partner-mfa.svg'
 import './Partners.scss'
 
 export function Partners() {
@@ -16,6 +17,11 @@ export function Partners() {
         <p className="partners__lead">{t('partners.lead')}</p>
 
         <div className="partners__logos">
+          <img
+            className="partners__logo-mfa"
+            src={partnerMfa}
+            alt={t('partners.mfaAlt')}
+          />
           <img src={partnerIcrc} alt={t('partners.icrcAlt')} />
           <img
             className="partners__logo-circle"
