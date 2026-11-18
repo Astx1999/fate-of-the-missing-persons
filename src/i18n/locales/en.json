@@ -75,7 +75,7 @@
       "opening": "Opening Ceremony",
       "openingDetails": "The Opening Ceremony will mark the official launch of the event, featuring welcome remarks and introductory statements by distinguished guests. It will outline the purpose and objectives of the conference and emphasize the humanitarian importance of clarifying the fate and whereabouts of missing persons.\n\n• H.E. Nikol Pashinyan, Prime Minister of the Republic of Armenia\n• H.E. Alen Simonyan, Secretary of the Security Council of the Republic of Armenia\n• H.E. Ararat Mirzoyan, Minister of Foreign Affairs and International Trade of the Republic of Armenia\n• Ms. Mirjana Spoljaric Egger, President of the International Committee of the Red Cross (pre-recorded speech)",
       "session1": "Session I – The Scope of the Problem and the Realistic Image",
-      "session1Details": "This panel will discuss the scope and scale of the missing persons’ issue, providing a historical overview and examining available statistics to establish a realistic picture of the problem. It will address the legal and technical challenges associated with clarifying the fate and whereabouts of missing persons, as well as the key obstacles to cooperation, information exchange, and coordinated efforts to achieve answers for affected families.\n\nPanelists:\n• Dr. Anahit Manasyan, Human Rights Defender of the Republic of Armenia\n• Mr. Pierre Gentile, UN representative on the Committee of Missing Persons in Cyprus (CMP)\n• Dr. Leonidas Pantelides, Representative of the Greek Cypriot Community on the Committee of Missing Persons in Cyprus (CMP)\n• Mr. Andreas Kleiser, Director for Policy and Cooperation at the International Commission on Missing Persons (ICMP)\n• Ms. Dena Fisher, Operations Coordinator for EURASIA Region (ICRC)\n• Mr. Mels Shirvanyan, Head of the Department for the Investigation of Particularly Important Cases at the Investigative Committee of the Republic of Armenia\n• Q&A\n\nModerator: Mr. Vrezh Kardumyan, Head of the Humanitarian Issues Division at the Ministry of Foreign Affairs and International Trade of the Republic of Armenia",
+      "session1Details": "This panel will discuss the scope and scale of the missing persons’ issue, providing a historical overview and examining available statistics to establish a realistic picture of the problem. It will address the legal and technical challenges associated with clarifying the fate and whereabouts of missing persons, as well as the key obstacles to cooperation, information exchange, and coordinated efforts to achieve answers for affected families.\n\nPanelists:\n• Dr. Anahit Manasyan, Human Rights Defender of the Republic of Armenia\n• Mr. Pierre Gentile, UN representative on the Committee of Missing Persons in Cyprus (CMP)\n• Dr. Leonidas Pantelides, Representative of the Greek Cypriot Community on the Committee of Missing Persons in Cyprus (CMP)\n• Mr. Andreas Kleiser, Director for Policy and Cooperation at the International Commission on Missing Persons (ICMP)\n• Ms. Dena Fisher, Operations Coordinator for EURASIA Region (ICRC)\n• Mr. Mels Shirvanyan, Head of the Department for the Investigation of Particularly Important Cases at the Investigative Committee of the Republic of Armenia\n• Q&A\n\nModerators:\n• Mr. Vrezh Kardumyan, Head of the Humanitarian Issues Division at the Ministry of Foreign Affairs and International Trade of the Republic of Armenia\n• Ms. Anahit Poghosyan, Advisor to the Secretary of the Security Council of the Republic of Armenia",
       "coffeeBreak": "Coffee Break & Networking",
       "session2": "Session II – Legal Framework on Missing Persons",
       "session2Details": "This panel will examine the international legal framework governing missing persons under International Humanitarian Law (IHL) and International Human Rights Law (IHRL), focusing on States’ obligations to prevent disappearances, search for missing persons, clarify their fate and whereabouts, and investigate cases of enforced disappearance and other unlawful disappearances. Experts will discuss State responsibility and accountability, the right of families to know the fate of their loved ones, access to justice and effective judicial and non-judicial remedies and reparations.\n\nDrawing on international standards and comparative experience, the discussion will also highlight the role of families and civil society in transitional justice, reconciliation, and post-conflict recovery, identifying practical recommendations to strengthen cooperation among families, civil society, public authorities, and other relevant actors.\n\nPanelists:\n• Ms. Anna Karapetyan, Deputy Minister of Justice of the Republic of Armenia – Strengthening Legal and Institutional Frameworks for Missing Persons\n• Mr. Gian Luca Beruto, Secretary General of International Institute of Humanitarian Law (IIHL) – Missing Persons in Armed Conflicts: the Role of Training, Dissemination and International Cooperation\n• Prof. Gabriella Citroni, Professor of International Human Rights Law at the University of Milano-Bicocca; International Legal Advisor for FEDEFAM – The International Legal Framework for Missing Persons: Prevention, Search and Clarification of Fate and Whereabouts\n• Dr. Yeghishe Kirakosyan, Ph.D., Director of International Courts and Arbitration LLM Program of Yerevan State University; Editor-in-Chief, Armenian Journal of International Law – State Responsibility for Violations Relating to Missing Persons\n• Mr. Edoardo Gimigliano, Coordinator of Special Projects Department, International Institute of Humanitarian Law – Beyond Legal Compliance: Addressing Missing Persons as a Pathway to Reconciliation and Post-Conflict Recovery\n• Ms. Anna Melikyan, Legal Expert in Human Rights and IHL; Project manager at Protection of Rights without Borders NGO – The Role of Civil Society and Families in Transitional Justice for Missing Persons\n• Q&A\n\nModerator: Dr. Michael Riepl, Postdoctoral Researcher, Professor of International Law at the Academy for European Human Rights Protection, Germany",
@@ -119,7 +119,7 @@
     "filtersLabel": "Speaker filters",
     "filters": {
       "all": "All",
-      "opening": "Opening Speakers",
+      "opening": "Keynote Speakers",
       "moderators": "Moderators",
       "panellists": "Panellists"
     },
@@ -130,9 +130,34 @@
     "readBiography": "Read Biography",
     "viewInProgramme": "View in Programme",
     "type": "Speaker",
+    "keynote": "Keynote Speaker",
     "moderator": "Moderator",
     "panellist": "Panellist",
     "people": {
+      "pashinyan": {
+        "name": "H.E. Nikol Pashinyan",
+        "role": "Prime Minister of the Republic of Armenia",
+        "organization": "Government of the Republic of Armenia",
+        "bio": "Nikol Pashinyan is the Prime Minister of the Republic of Armenia. Born on 1 June 1975 in Ijevan, he studied at Yerevan State University and worked for many years as a journalist and editor-in-chief. He founded the Civil Contract party and led the non-violent Velvet Revolution of 2018. He was first elected Prime Minister in May 2018 and was reappointed following subsequent parliamentary elections, most recently on 2 August 2026."
+      },
+      "simonyan": {
+        "name": "H.E. Alen Simonyan",
+        "role": "Secretary of the Security Council of the Republic of Armenia",
+        "organization": "Security Council of the Republic of Armenia",
+        "bio": "Alen Simonyan is the Secretary of the Security Council of the Republic of Armenia, appointed on 13 August 2026. Born on 5 January 1980 in Yerevan, he graduated from the Faculty of Law of Yerevan State University and holds a master’s degree in political science. He previously served as President of the National Assembly of Armenia (2021–2026), Vice President of the National Assembly (2019–2021), and as a member of the National Assembly."
+      },
+      "mirzoyan": {
+        "name": "H.E. Ararat Mirzoyan",
+        "role": "Minister of Foreign Affairs and International Trade of the Republic of Armenia",
+        "organization": "Ministry of Foreign Affairs and International Trade of the Republic of Armenia",
+        "bio": "Ararat Mirzoyan is the Minister of Foreign Affairs and International Trade of the Republic of Armenia. Born on 23 November 1979 in Yerevan, he holds bachelor’s and master’s degrees in history from Yerevan State University and a PhD in History. He previously served as President of the National Assembly (2019–2021) and First Deputy Prime Minister (2018–2019). He was appointed Minister of Foreign Affairs on 19 August 2021 and reappointed on 3 August 2026."
+      },
+      "spoljaric": {
+        "name": "Ms. Mirjana Spoljaric Egger",
+        "role": "President of the International Committee of the Red Cross",
+        "organization": "International Committee of the Red Cross",
+        "bio": "Mirjana Spoljaric Egger has served as President of the International Committee of the Red Cross (ICRC) since October 2022. She oversees the ICRC’s global humanitarian work across some 90 countries. Before joining the ICRC, she served as UN Assistant Secretary-General and Director of UNDP’s Regional Bureau for Europe and the CIS (2018–2022), and held senior roles in the Swiss diplomatic service. She studied philosophy, economics and international law at the Universities of Basel and Geneva. (Pre-recorded speech.)"
+      },
       "riepl": {
         "name": "Dr. Michael Riepl",
         "role": "Postdoctoral researcher; international lawyer",
@@ -181,6 +206,11 @@
         "organization": "Argentine Forensic Anthropology Team (EAAF)",
         "bio": "She has over 25 years of international experience in the forensic investigation, search and identification of missing persons in contexts of conflict, human rights violations, migration and other situations of violence. She has contributed to investigations, training and advisory missions worldwide, including Argentina, Bosnia-Herzegovina, Central African Republic, Colombia, Cyprus, Chile, Georgia, Guatemala, Iran, Iraq, Morocco, Mexico, Nepal, Panama, Peru, South Africa, Sudan, Chad, Thailand, Timor-Leste, Togo, Ukraine, Uruguay and Vietnam. She serves as an expert advisor to the UN Special Rapporteur on extrajudicial, summary or arbitrary executions, the ICRC, the Latin American Association of Forensic Anthropology (ALAF), and the American Academy of Forensic Sciences (AAFS)."
       },
+      "safaryan": {
+        "name": "Mr. Mnatsakan Safaryan",
+        "role": "Deputy Minister of Foreign Affairs and International Trade of the Republic of Armenia",
+        "organization": "Ministry of Foreign Affairs and International Trade of the Republic of Armenia"
+      },
       "guzman": {
         "name": "Angelica Guzman",
         "role": "Forensic Coordinator for Armenia",
@@ -220,6 +250,11 @@
         "name": "Vrezh Kardumyan",
         "role": "Head of the Humanitarian Issues Division, Human Rights and Humanitarian Issues Department",
         "organization": "Ministry of Foreign Affairs of the Republic of Armenia"
+      },
+      "poghosyan": {
+        "name": "Anahit Poghosyan",
+        "role": "Advisor to the Secretary of the Security Council of the Republic of Armenia",
+        "organization": "Security Council of the Republic of Armenia"
       }
     }
   },
@@ -239,7 +274,6 @@
     "datesLabel": "Dates",
     "dates": "19–20 November 2026",
     "openMap": "Open Map",
-    "onlineNote": "The organizing team will send online connection details separately to confirmed participants.",
     "mapAlt": "Map showing Armenia Marriott Hotel in Yerevan"
   },
   "footer": {

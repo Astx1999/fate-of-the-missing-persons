@@ -85,9 +85,11 @@ export function Speakers() {
                   <p className="speaker-card__country">{t(speaker.organizationKey)}</p>
                   <p>
                     {t(
-                      speaker.category === 'moderators'
-                        ? 'speakers.moderator'
-                        : 'speakers.panellist',
+                      speaker.category === 'opening'
+                        ? 'speakers.keynote'
+                        : speaker.category === 'moderators'
+                          ? 'speakers.moderator'
+                          : 'speakers.panellist',
                     )}
                   </p>
                 </div>

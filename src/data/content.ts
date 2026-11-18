@@ -9,6 +9,12 @@ import speakerPantelides from '../assets/speaker-pantelides.jpg'
 import speakerMuftuzade from '../assets/speaker-muftuzade.jpg'
 import speakerGentile from '../assets/speaker-gentile.jpg'
 import speakerKardumyan from '../assets/speaker-kardumyan.jpg'
+import speakerPoghosyan from '../assets/speaker-poghosyan.jpg'
+import speakerPashinyan from '../assets/speaker-pashinyan.jpg'
+import speakerSimonyan from '../assets/speaker-simonyan.jpg'
+import speakerMirzoyan from '../assets/speaker-mirzoyan.jpg'
+import speakerSafaryan from '../assets/speaker-safaryan.jpg'
+import speakerSpoljaric from '../assets/speaker-spoljaric.jpg'
 import speakerZaccaro from '../assets/speaker-zaccaro.png'
 import speakerGuzman from '../assets/speaker-guzman.jpg'
 import speakerRobichon from '../assets/speaker-robichon.png'
@@ -286,11 +292,55 @@ export type Speaker = {
 
 export const speakers: Speaker[] = [
   {
+    id: 'pashinyan',
+    nameKey: 'speakers.people.pashinyan.name',
+    roleKey: 'speakers.people.pashinyan.role',
+    organizationKey: 'speakers.people.pashinyan.organization',
+    category: 'opening',
+    photo: speakerPashinyan,
+    bioKey: 'speakers.people.pashinyan.bio',
+  },
+  {
+    id: 'simonyan',
+    nameKey: 'speakers.people.simonyan.name',
+    roleKey: 'speakers.people.simonyan.role',
+    organizationKey: 'speakers.people.simonyan.organization',
+    category: 'opening',
+    photo: speakerSimonyan,
+    bioKey: 'speakers.people.simonyan.bio',
+  },
+  {
+    id: 'mirzoyan',
+    nameKey: 'speakers.people.mirzoyan.name',
+    roleKey: 'speakers.people.mirzoyan.role',
+    organizationKey: 'speakers.people.mirzoyan.organization',
+    category: 'opening',
+    photo: speakerMirzoyan,
+    bioKey: 'speakers.people.mirzoyan.bio',
+  },
+  {
+    id: 'spoljaric',
+    nameKey: 'speakers.people.spoljaric.name',
+    roleKey: 'speakers.people.spoljaric.role',
+    organizationKey: 'speakers.people.spoljaric.organization',
+    category: 'opening',
+    photo: speakerSpoljaric,
+    bioKey: 'speakers.people.spoljaric.bio',
+  },
+  {
+    id: 'safaryan',
+    nameKey: 'speakers.people.safaryan.name',
+    roleKey: 'speakers.people.safaryan.role',
+    organizationKey: 'speakers.people.safaryan.organization',
+    category: 'panellists',
+    photo: speakerSafaryan,
+  },
+  {
     id: 'riepl',
     nameKey: 'speakers.people.riepl.name',
     roleKey: 'speakers.people.riepl.role',
     organizationKey: 'speakers.people.riepl.organization',
-    category: 'panellists',
+    category: 'moderators',
     photo: speakerRiepl,
     bioKey: 'speakers.people.riepl.bio',
   },
@@ -420,10 +470,19 @@ export const speakers: Speaker[] = [
     photo: speakerKardumyan,
     photoPosition: 'center 12%',
   },
+  {
+    id: 'poghosyan',
+    nameKey: 'speakers.people.poghosyan.name',
+    roleKey: 'speakers.people.poghosyan.role',
+    organizationKey: 'speakers.people.poghosyan.organization',
+    category: 'moderators',
+    photo: speakerPoghosyan,
+  },
 ]
 
 export const speakerFilters = [
   { id: 'all', labelKey: 'speakers.filters.all' },
+  { id: 'opening', labelKey: 'speakers.filters.opening' },
   { id: 'moderators', labelKey: 'speakers.filters.moderators' },
   { id: 'panellists', labelKey: 'speakers.filters.panellists' },
 ] as const

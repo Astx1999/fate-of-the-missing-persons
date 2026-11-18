@@ -38,7 +38,6 @@ export function Venue() {
             />
           </div>
 
-          <p className="venue__online-note">{t('venue.onlineNote')}</p>
         </div>
       </div>
     </section>

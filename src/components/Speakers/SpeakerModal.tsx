@@ -76,9 +76,11 @@ export function SpeakerModal({ speaker, onClose }: SpeakerModalProps) {
             <p className="speaker-modal__country">{t(speaker.organizationKey)}</p>
             <p>
               {t(
-                speaker.category === 'moderators'
-                  ? 'speakers.moderator'
-                  : 'speakers.panellist',
+                speaker.category === 'opening'
+                  ? 'speakers.keynote'
+                  : speaker.category === 'moderators'
+                    ? 'speakers.moderator'
+                    : 'speakers.panellist',
               )}
             </p>
             <a className="speaker-modal__cta" href="#programme" onClick={onClose}>

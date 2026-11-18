@@ -29,8 +29,7 @@
   gap: var(--space-lg);
   grid-template-areas:
     'details'
-    'map'
-    'note';
+    'map';
 }
 
 .venue__details {
@@ -43,12 +42,6 @@
     font-weight: 700;
     margin-right: 0.35rem;
   }
-}
-
-.venue__online-note {
-  grid-area: note;
-  @include body-lg;
-  max-width: 36rem;
 }
 
 .venue__map {
@@ -69,9 +62,7 @@
 @media (min-width: 980px) {
   .venue__body {
     grid-template-columns: 0.9fr 1.1fr;
-    grid-template-areas:
-      'details map'
-      'note map';
+    grid-template-areas: 'details map';
     column-gap: 3rem;
     row-gap: 1.5rem;
     align-items: start;
